@@ -1,0 +1,20 @@
+# Скомпільовані файли та папки збірки
+build/
+bin/
+*.exe
+*.obj
+*.dll
+*.a
+*.lib
+
+# Кеш VS Code та CMake
+.vscode/
+.cache/
+CMakeCache.txt
+CMakeFiles/
+
+# Файли баз даних та кешу вашої програми
+*.pmdb
+*.pmc
+*.pmlog
+thumbcache/

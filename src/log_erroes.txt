@@ -1,0 +1,530 @@
+[main] Building folder: c:/Users/Myroslav/Desktop/PhotoManager/build all
+[build] Starting build
+[proc] Executing command: D:\ProgramsKI\Python\Scripts\cmake.EXE --build c:/Users/Myroslav/Desktop/PhotoManager/build --config Debug --target all --
+[build] [2/3  33% :: 2.139] Building CXX object CMakeFiles/PhotoManager.dir/src/filesystem/folder_watcher.cpp.obj
+[build] In file included from C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/folder_watcher.cpp:1:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/folder_watcher.hpp:2:9: warning: 'WIN32_LEAN_AND_MEAN' redefined
+[build]     2 | #define WIN32_LEAN_AND_MEAN
+[build]       |         ^~~~~~~~~~~~~~~~~~~
+[build] <command-line>: note: this is the location of the previous definition
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/folder_watcher.hpp:3:9: warning: 'NOMINMAX' redefined
+[build]     3 | #define NOMINMAX
+[build]       |         ^~~~~~~~
+[build] <command-line>: note: this is the location of the previous definition
+[build] In file included from C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/folder_watcher.cpp:2:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/file_ops.hpp:3:9: warning: 'NOMINMAX' redefined
+[build]     3 | #define NOMINMAX
+[build]       |         ^~~~~~~~
+[build] In file included from C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:727,
+[build]                  from C:/msys64/mingw64/include/c++/15.2.0/cstdlib:46,
+[build]                  from C:/msys64/mingw64/include/c++/15.2.0/stdlib.h:36,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:27,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:34,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:31,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:32,
+[build]                  from C:/msys64/mingw64/include/winnt.h:1695,
+[build]                  from C:/msys64/mingw64/include/minwindef.h:163,
+[build]                  from C:/msys64/mingw64/include/windef.h:9,
+[build]                  from C:/msys64/mingw64/include/windows.h:69,
+[build]                  from C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/folder_watcher.hpp:4:
+[build] C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h:45:9: note: this is the location of the previous definition
+[build]    45 | #define NOMINMAX 1
+[build]       |         ^~~~~~~~
+[build] [2/3  66% :: 6.714] Building CXX object CMakeFiles/PhotoManager.dir/src/ui/console_ui.cpp.obj
+[build] FAILED: [code=1] CMakeFiles/PhotoManager.dir/src/ui/console_ui.cpp.obj 
+[build] C:\msys64\mingw64\bin\g++.exe -DNOMINMAX -DNTDDI_VERSION=0x0A000000 -DUNICODE -DWIN32_LEAN_AND_MEAN -D_UNICODE -D_WIN32_WINNT=0x0A00 -IC:/Users/Myroslav/Desktop/PhotoManager -IC:/Users/Myroslav/Desktop/PhotoManager/src -g -std=gnu++17 -MD -MT CMakeFiles/PhotoManager.dir/src/ui/console_ui.cpp.obj -MF CMakeFiles\PhotoManager.dir\src\ui\console_ui.cpp.obj.d -o CMakeFiles/PhotoManager.dir/src/ui/console_ui.cpp.obj -c C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1:9: warning: 'WIN32_LEAN_AND_MEAN' redefined
+[build]     1 | #define WIN32_LEAN_AND_MEAN
+[build]       |         ^~~~~~~~~~~~~~~~~~~
+[build] <command-line>: note: this is the location of the previous definition
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:2:9: warning: 'NOMINMAX' redefined
+[build]     2 | #define NOMINMAX
+[build]       |         ^~~~~~~~
+[build] <command-line>: note: this is the location of the previous definition
+[build] In file included from C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.hpp:2,
+[build]                  from C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:4:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/filesystem/file_ops.hpp:3:9: warning: 'NOMINMAX' redefined
+[build]     3 | #define NOMINMAX
+[build]       |         ^~~~~~~~
+[build] In file included from C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:727,
+[build]                  from C:/msys64/mingw64/include/c++/15.2.0/cstdlib:46,
+[build]                  from C:/msys64/mingw64/include/c++/15.2.0/stdlib.h:36,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h:27,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h:34,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:31,
+[build]                  from C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/x86intrin.h:32,
+[build]                  from C:/msys64/mingw64/include/winnt.h:1695,
+[build]                  from C:/msys64/mingw64/include/minwindef.h:163,
+[build]                  from C:/msys64/mingw64/include/windef.h:9,
+[build]                  from C:/msys64/mingw64/include/windows.h:69,
+[build]                  from C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:3:
+[build] C:/msys64/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/os_defines.h:45:9: note: this is the location of the previous definition
+[build]    45 | #define NOMINMAX 1
+[build]       |         ^~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1007:6: error: 'ConsoleUI' has not been declared
+[build]  1007 | void ConsoleUI::menuNtfsAds() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void menuNtfsAds()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1009:9: error: 'printHeader' was not declared in this scope
+[build]  1009 |         printHeader("NTFS ALTERNATE DATA STREAMS");
+[build]       |         ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1021:18: error: 'promptInt' was not declared in this scope
+[build]  1021 |         int ch = promptInt("Вибір: ", 0, 8);
+[build]       |                  ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1024:17: error: 'actionNtfsWriteHash' was not declared in this scope
+[build]  1024 |         case 1: actionNtfsWriteHash();  break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1025:17: error: 'actionNtfsReadAll' was not declared in this scope
+[build]  1025 |         case 2: actionNtfsReadAll();    break;
+[build]       |                 ^~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1026:17: error: 'actionNtfsWriteNote' was not declared in this scope
+[build]  1026 |         case 3: actionNtfsWriteNote();  break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1027:17: error: 'actionNtfsListStreams' was not declared in this scope
+[build]  1027 |         case 4: actionNtfsListStreams(); break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1028:17: error: 'actionNtfsCopyStreams' was not declared in this scope
+[build]  1028 |         case 5: actionNtfsCopyStreams(); break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1030:29: error: 'promptLine' was not declared in this scope
+[build]  1030 |             std::string p = promptLine("Шлях до файлу: ");
+[build]       |                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1032:23: error: 'NTFS' has not been declared
+[build]  1032 |             bool ok = NTFS::AlternateDataStreams::writeRating(
+[build]       |                       ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1033:17: error: 'FileSystem' has not been declared
+[build]  1033 |                 FileSystem::Utf8ToWide(p), r);
+[build]       |                 ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1035:13: error: 'pauseForInput' was not declared in this scope
+[build]  1035 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1039:29: error: 'promptLine' was not declared in this scope
+[build]  1039 |             std::string p = promptLine("Шлях до файлу: ");
+[build]       |                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1045:23: error: 'NTFS' has not been declared
+[build]  1045 |             bool ok = NTFS::AlternateDataStreams::markVerified(
+[build]       |                       ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1046:17: error: 'FileSystem' has not been declared
+[build]  1046 |                 FileSystem::Utf8ToWide(p), ss.str());
+[build]       |                 ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1048:13: error: 'pauseForInput' was not declared in this scope
+[build]  1048 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1052:29: error: 'promptLine' was not declared in this scope
+[build]  1052 |             std::string p = promptLine("Шлях (файл або папка): ");
+[build]       |                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1053:25: error: 'NTFS' has not been declared
+[build]  1053 |             bool ntfs = NTFS::AlternateDataStreams::isNtfsVolume(
+[build]       |                         ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1054:17: error: 'FileSystem' has not been declared
+[build]  1054 |                 FileSystem::Utf8ToWide(p));
+[build]       |                 ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1057:13: error: 'pauseForInput' was not declared in this scope
+[build]  1057 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1064:6: error: 'ConsoleUI' has not been declared
+[build]  1064 | void ConsoleUI::actionNtfsWriteHash() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionNtfsWriteHash()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1065:21: error: 'promptLine' was not declared in this scope
+[build]  1065 |     std::string p = promptLine("Шлях до файлу: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1067:23: error: 'FileSystem' has not been declared
+[build]  1067 |     std::wstring wp = FileSystem::Utf8ToWide(p);
+[build]       |                       ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1069:27: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1069 |         std::string hex = state_.hasher->computeFileHash(wp);
+[build]       |                           ^~~~~~
+[build]       |                           static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1070:19: error: 'NTFS' has not been declared
+[build]  1070 |         bool ok = NTFS::AlternateDataStreams::writeHash(wp, hex);
+[build]       |                   ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1073:27: error: 'Log' has not been declared
+[build]  1073 |         state_.oplog->log(Log::OpType::HASH_COMPUTE, p, "", hex);
+[build]       |                           ^~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1077:5: error: 'pauseForInput' was not declared in this scope
+[build]  1077 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1080:6: error: 'ConsoleUI' has not been declared
+[build]  1080 | void ConsoleUI::actionNtfsReadAll() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionNtfsReadAll()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1081:21: error: 'promptLine' was not declared in this scope
+[build]  1081 |     std::string p = promptLine("Шлях до файлу: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1083:17: error: 'NTFS' has not been declared
+[build]  1083 |     auto meta = NTFS::AlternateDataStreams::readAllMetadata(FileSystem::Utf8ToWide(p));
+[build]       |                 ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1083:61: error: 'FileSystem' has not been declared
+[build]  1083 |     auto meta = NTFS::AlternateDataStreams::readAllMetadata(FileSystem::Utf8ToWide(p));
+[build]       |                                                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1084:5: error: 'printHeader' was not declared in this scope
+[build]  1084 |     printHeader("ADS МЕТАДАНІ");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1092:24: error: 'NTFS' has not been declared
+[build]  1092 |     auto stored_hash = NTFS::AlternateDataStreams::readHash(FileSystem::Utf8ToWide(p));
+[build]       |                        ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1092:61: error: 'FileSystem' has not been declared
+[build]  1092 |     auto stored_hash = NTFS::AlternateDataStreams::readHash(FileSystem::Utf8ToWide(p));
+[build]       |                                                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1096:34: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1096 |             std::string actual = state_.hasher->computeFileHash(FileSystem::Utf8ToWide(p));
+[build]       |                                  ^~~~~~
+[build]       |                                  static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1096:65: error: 'FileSystem' has not been declared
+[build]  1096 |             std::string actual = state_.hasher->computeFileHash(FileSystem::Utf8ToWide(p));
+[build]       |                                                                 ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1103:5: error: 'pauseForInput' was not declared in this scope
+[build]  1103 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1106:6: error: 'ConsoleUI' has not been declared
+[build]  1106 | void ConsoleUI::actionNtfsWriteNote() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionNtfsWriteNote()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1107:21: error: 'promptLine' was not declared in this scope
+[build]  1107 |     std::string p = promptLine("Шлях до файлу: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1109:21: error: 'NTFS' has not been declared
+[build]  1109 |     auto existing = NTFS::AlternateDataStreams::readNote(FileSystem::Utf8ToWide(p));
+[build]       |                     ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1109:58: error: 'FileSystem' has not been declared
+[build]  1109 |     auto existing = NTFS::AlternateDataStreams::readNote(FileSystem::Utf8ToWide(p));
+[build]       |                                                          ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1113:15: error: 'NTFS' has not been declared
+[build]  1113 |     bool ok = NTFS::AlternateDataStreams::writeNote(FileSystem::Utf8ToWide(p), note);
+[build]       |               ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1113:53: error: 'FileSystem' has not been declared
+[build]  1113 |     bool ok = NTFS::AlternateDataStreams::writeNote(FileSystem::Utf8ToWide(p), note);
+[build]       |                                                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1115:5: error: 'pauseForInput' was not declared in this scope
+[build]  1115 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1118:6: error: 'ConsoleUI' has not been declared
+[build]  1118 | void ConsoleUI::actionNtfsListStreams() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionNtfsListStreams()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1119:21: error: 'promptLine' was not declared in this scope
+[build]  1119 |     std::string p = promptLine("Шлях до файлу: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1121:20: error: 'NTFS' has not been declared
+[build]  1121 |     auto streams = NTFS::AlternateDataStreams::listStreams(FileSystem::Utf8ToWide(p));
+[build]       |                    ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1121:60: error: 'FileSystem' has not been declared
+[build]  1121 |     auto streams = NTFS::AlternateDataStreams::listStreams(FileSystem::Utf8ToWide(p));
+[build]       |                                                            ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1122:5: error: 'printHeader' was not declared in this scope
+[build]  1122 |     printHeader("NTFS ПОТОКИ");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1127:35: error: 'FileSystem' has not been declared
+[build]  1127 |             std::cout << "  :" << FileSystem::WideToUtf8(s.stream_name)
+[build]       |                                   ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1128:35: error: 'formatSize' was not declared in this scope
+[build]  1128 |                       << "  (" << formatSize(s.size) << ")\n";
+[build]       |                                   ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1136:5: error: 'pauseForInput' was not declared in this scope
+[build]  1136 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1139:6: error: 'ConsoleUI' has not been declared
+[build]  1139 | void ConsoleUI::actionNtfsCopyStreams() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionNtfsCopyStreams()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1140:23: error: 'promptLine' was not declared in this scope
+[build]  1140 |     std::string src = promptLine("Джерело (файл з ADS): ");
+[build]       |                       ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1143:15: error: 'NTFS' has not been declared
+[build]  1143 |     bool ok = NTFS::AlternateDataStreams::copyStreams(
+[build]       |               ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1144:9: error: 'FileSystem' has not been declared
+[build]  1144 |         FileSystem::Utf8ToWide(src), FileSystem::Utf8ToWide(dst));
+[build]       |         ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1144:38: error: 'FileSystem' has not been declared
+[build]  1144 |         FileSystem::Utf8ToWide(src), FileSystem::Utf8ToWide(dst));
+[build]       |                                      ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1146:5: error: 'pauseForInput' was not declared in this scope
+[build]  1146 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1153:6: error: 'ConsoleUI' has not been declared
+[build]  1153 | void ConsoleUI::menuWatcher() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void menuWatcher()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1155:9: error: 'printHeader' was not declared in this scope
+[build]  1155 |         printHeader("СЛІДКУВАННЯ ЗА ПАПКОЮ (ReadDirectoryChangesW)");
+[build]       |         ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1156:24: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1156 |         bool running = state_.watcher->isRunning();
+[build]       |                        ^~~~~~
+[build]       |                        static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1158:33: error: 'FileSystem' has not been declared
+[build]  1158 |                   << (running ? FileSystem::WideToUtf8(state_.watcher->watchedFolder()) : "")
+[build]       |                                 ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1164:18: error: 'promptInt' was not declared in this scope
+[build]  1164 |         int ch = promptInt("Вибір: ", 0, 3);
+[build]       |                  ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1167:17: error: 'actionWatcherStart' was not declared in this scope
+[build]  1167 |         case 1: actionWatcherStart(); break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1168:17: error: 'actionWatcherPoll' was not declared in this scope
+[build]  1168 |         case 2: actionWatcherPoll();  break;
+[build]       |                 ^~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1172:13: error: 'pauseForInput' was not declared in this scope
+[build]  1172 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1178:6: error: 'ConsoleUI' has not been declared
+[build]  1178 | void ConsoleUI::actionWatcherStart() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionWatcherStart()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1179:9: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1179 |     if (state_.watcher->isRunning()) {
+[build]       |         ^~~~~~
+[build]       |         static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1181:9: error: 'pauseForInput' was not declared in this scope
+[build]  1181 |         pauseForInput(); return;
+[build]       |         ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1183:26: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1183 |     std::string folder = state_.current_folder.empty()
+[build]       |                          ^~~~~~
+[build]       |                          static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1184:11: error: 'promptFolder' was not declared in this scope
+[build]  1184 |         ? promptFolder("Папка для слідкування")
+[build]       |           ^~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1187:22: error: 'promptYesNo' was not declared in this scope
+[build]  1187 |     bool recursive = promptYesNo("Включати підпапки?");
+[build]       |                      ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1189:34: error: invalid use of 'this' in non-member function
+[build]  1189 |     state_.watcher->setCallback([this](const Watch::FileChangeEvent& ev) {
+[build]       |                                  ^~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1189:46: error: 'Watch' does not name a type
+[build]  1189 |     state_.watcher->setCallback([this](const Watch::FileChangeEvent& ev) {
+[build]       |                                              ^~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In lambda function:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1204:7: error: expected '{' before ';' token
+[build]  1204 |     });
+[build]       |       ^
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionWatcherStart()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1204:7: error: expected ')' before ';' token
+[build]  1204 |     });
+[build]       |       ^
+[build]       |       )
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1189:32: note: to match this '('
+[build]  1189 |     state_.watcher->setCallback([this](const Watch::FileChangeEvent& ev) {
+[build]       |                                ^
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1207:9: error: 'FileSystem' has not been declared
+[build]  1207 |         FileSystem::Utf8ToWide(folder), recursive, true);
+[build]       |         ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1210:5: error: 'pauseForInput' was not declared in this scope
+[build]  1210 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1213:6: error: 'ConsoleUI' has not been declared
+[build]  1213 | void ConsoleUI::actionWatcherPoll() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionWatcherPoll()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1214:19: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1214 |     auto events = state_.watcher->pollEvents();
+[build]       |                   ^~~~~~
+[build]       |                   static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1215:5: error: 'printHeader' was not declared in this scope
+[build]  1215 |     printHeader("НОВІ ПОДІЇ");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1226:26: error: 'FileSystem' has not been declared
+[build]  1226 |                       << FileSystem::WideToUtf8(ev.path) << '\n';
+[build]       |                          ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1229:5: error: 'pauseForInput' was not declared in this scope
+[build]  1229 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1236:6: error: 'ConsoleUI' has not been declared
+[build]  1236 | void ConsoleUI::menuOperationLog() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void menuOperationLog()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1238:9: error: 'printHeader' was not declared in this scope
+[build]  1238 |         printHeader("ЖУРНАЛ ОПЕРАЦІЙ");
+[build]       |         ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1239:46: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1239 |         std::cout << "  Всього записів: " << state_.oplog->count() << "\n\n"
+[build]       |                                              ^~~~~~
+[build]       |                                              static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1246:18: error: 'promptInt' was not declared in this scope
+[build]  1246 |         int ch = promptInt("Вибір: ", 0, 5);
+[build]       |                  ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1249:17: error: 'actionLogShow' was not declared in this scope
+[build]  1249 |         case 1: actionLogShow();  break;
+[build]       |                 ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1250:17: error: 'actionLogUndo' was not declared in this scope
+[build]  1250 |         case 2: actionLogUndo();  break;
+[build]       |                 ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1255:13: error: 'pauseForInput' was not declared in this scope
+[build]  1255 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1258:17: error: 'actionLogStats' was not declared in this scope
+[build]  1258 |         case 4: actionLogStats(); break;
+[build]       |                 ^~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1260:17: error: 'promptYesNo' was not declared in this scope
+[build]  1260 |             if (promptYesNo("Очистити журнал?")) {
+[build]       |                 ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1264:13: error: 'pauseForInput' was not declared in this scope
+[build]  1264 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1270:6: error: 'ConsoleUI' has not been declared
+[build]  1270 | void ConsoleUI::actionLogShow() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionLogShow()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1271:19: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1271 |     auto recent = state_.oplog->getRecent(30);
+[build]       |                   ^~~~~~
+[build]       |                   static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1272:5: error: 'printHeader' was not declared in this scope
+[build]  1272 |     printHeader("ОСТАННІ ОПЕРАЦІЇ");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1287:5: error: 'pauseForInput' was not declared in this scope
+[build]  1287 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1290:6: error: 'ConsoleUI' has not been declared
+[build]  1290 | void ConsoleUI::actionLogUndo() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionLogUndo()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1291:15: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1291 |     bool ok = state_.oplog->undoLast();
+[build]       |               ^~~~~~
+[build]       |               static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1293:5: error: 'pauseForInput' was not declared in this scope
+[build]  1293 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1296:6: error: 'ConsoleUI' has not been declared
+[build]  1296 | void ConsoleUI::actionLogStats() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionLogStats()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1297:5: error: 'printHeader' was not declared in this scope
+[build]  1297 |     printHeader("СТАТИСТИКА ОПЕРАЦІЙ");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1298:18: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1298 |     std::cout << state_.oplog->statistics();
+[build]       |                  ^~~~~~
+[build]       |                  static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1299:5: error: 'pauseForInput' was not declared in this scope
+[build]  1299 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1306:6: error: 'ConsoleUI' has not been declared
+[build]  1306 | void ConsoleUI::menuThumbnails() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void menuThumbnails()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1308:9: error: 'printHeader' was not declared in this scope
+[build]  1308 |         printHeader("МІНІАТЮРИ (THUMBNAILS)");
+[build]       |         ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1316:18: error: 'promptInt' was not declared in this scope
+[build]  1316 |         int ch = promptInt("Вибір: ", 0, 6);
+[build]       |                  ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1319:17: error: 'actionThumbGenerate' was not declared in this scope
+[build]  1319 |         case 1: actionThumbGenerate();     break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1320:17: error: 'actionThumbPreviewAscii' was not declared in this scope
+[build]  1320 |         case 2: actionThumbPreviewAscii(); break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1321:17: error: 'actionThumbCacheInfo' was not declared in this scope
+[build]  1321 |         case 3: actionThumbCacheInfo();    break;
+[build]       |                 ^~~~~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1323:29: error: 'promptLine' was not declared in this scope
+[build]  1323 |             std::string p = promptLine("Шлях до фото: ");
+[build]       |                             ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1324:22: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1324 |             auto t = state_.thumbs->getThumbnail(FileSystem::Utf8ToWide(p));
+[build]       |                      ^~~~~~
+[build]       |                      static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1324:50: error: 'FileSystem' has not been declared
+[build]  1324 |             auto t = state_.thumbs->getThumbnail(FileSystem::Utf8ToWide(p));
+[build]       |                                                  ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1325:20: error: 'FileSystem' has not been declared
+[build]  1325 |             if (t) FileSystem::OpenWithDefaultApp(*t);
+[build]       |                    ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1327:13: error: 'pauseForInput' was not declared in this scope
+[build]  1327 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1331:26: error: 'scanCurrentFolder' was not declared in this scope
+[build]  1331 |             auto files = scanCurrentFolder(false);
+[build]       |                          ^~~~~~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1336:21: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1336 |                 if (state_.thumbs->generateThumbnail(fi.full_path, tp)) ++ok;
+[build]       |                     ^~~~~~
+[build]       |                     static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1341:13: error: 'pauseForInput' was not declared in this scope
+[build]  1341 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1345:13: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1345 |             state_.thumbs->clearCache();
+[build]       |             ^~~~~~
+[build]       |             static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1347:13: error: 'pauseForInput' was not declared in this scope
+[build]  1347 |             pauseForInput();
+[build]       |             ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1353:6: error: 'ConsoleUI' has not been declared
+[build]  1353 | void ConsoleUI::actionThumbGenerate() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionThumbGenerate()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1354:21: error: 'promptLine' was not declared in this scope
+[build]  1354 |     std::string p = promptLine("Шлях до фото: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1357:15: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1357 |     bool ok = state_.thumbs->generateThumbnail(FileSystem::Utf8ToWide(p), out);
+[build]       |               ^~~~~~
+[build]       |               static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1357:48: error: 'FileSystem' has not been declared
+[build]  1357 |     bool ok = state_.thumbs->generateThumbnail(FileSystem::Utf8ToWide(p), out);
+[build]       |                                                ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1359:41: error: 'FileSystem' has not been declared
+[build]  1359 |         std::cout << "  Мініатюра: " << FileSystem::WideToUtf8(out) << '\n';
+[build]       |                                         ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1362:5: error: 'pauseForInput' was not declared in this scope
+[build]  1362 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1365:6: error: 'ConsoleUI' has not been declared
+[build]  1365 | void ConsoleUI::actionThumbPreviewAscii() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionThumbPreviewAscii()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1366:21: error: 'promptLine' was not declared in this scope
+[build]  1366 |     std::string p = promptLine("Шлях до JPEG: ");
+[build]       |                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1368:5: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1368 |     state_.thumbs->generateAsciiPreview(FileSystem::Utf8ToWide(p), 62, 28);
+[build]       |     ^~~~~~
+[build]       |     static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1368:41: error: 'FileSystem' has not been declared
+[build]  1368 |     state_.thumbs->generateAsciiPreview(FileSystem::Utf8ToWide(p), 62, 28);
+[build]       |                                         ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1369:5: error: 'pauseForInput' was not declared in this scope
+[build]  1369 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: At global scope:
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1372:6: error: 'ConsoleUI' has not been declared
+[build]  1372 | void ConsoleUI::actionThumbCacheInfo() {
+[build]       |      ^~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp: In function 'void actionThumbCacheInfo()':
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1373:5: error: 'printHeader' was not declared in this scope
+[build]  1373 |     printHeader("КЕШ МІНІАТЮР");
+[build]       |     ^~~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1374:37: error: 'state_' was not declared in this scope; did you mean 'static'?
+[build]  1374 |     std::cout << "  Кількість: " << state_.thumbs->cacheCount() << '\n'
+[build]       |                                     ^~~~~~
+[build]       |                                     static
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1375:37: error: 'formatSize' was not declared in this scope
+[build]  1375 |               << "  Розмір:    " << formatSize(state_.thumbs->cacheSizeBytes()) << '\n'
+[build]       |                                     ^~~~~~~~~~
+[build] C:/Users/Myroslav/Desktop/PhotoManager/src/ui/console_ui.cpp:1377:5: error: 'pauseForInput' was not declared in this scope
+[build]  1377 |     pauseForInput();
+[build]       |     ^~~~~~~~~~~~~
+[proc] The command: D:\ProgramsKI\Python\Scripts\cmake.EXE --build c:/Users/Myroslav/Desktop/PhotoManager/build --config Debug --target all -- exited with code: 1
+[build] ninja: build stopped: subcommand failed.
+[driver] Build completed: 00:00:07.207
+[build] Build finished with exit code 1
